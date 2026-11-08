@@ -1,0 +1,22 @@
+{
+  "vocab_size": 22,
+  "embed_dim": 128,
+  "num_classes": 4,
+  "dropout": 0.5,
+  "labels": [
+    "Fungus",
+    "Bacteria",
+    "Virus",
+    "Other"
+  ],
+  "best_epoch": 15,
+  "random_seed": 42,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "max_epochs": 100,
+  "early_stopping_patience": 10,
+  "scheduler_factor": 0.5,
+  "scheduler_patience": 5,
+  "scheduler_min_lr": 1e-06
+}

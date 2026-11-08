@@ -1,0 +1,17 @@
+name: gene_pipeline_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+      - ifeatpro==0.0.3
+      - joblib==1.1.1
+      - numpy==1.23.5
+      - pandas==1.3.5
+      - scikit-learn==1.2.2
+      - scipy==1.7.3
+      - threadpoolctl==3.5.0
+      - xgboost==2.1.4
+      - onnxruntime==1.19.2
