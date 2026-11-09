@@ -93,6 +93,6 @@ RGPT/
 - **Training set:** 
 - **Independent test set:** `data/independent_test/final_independent_set.fasta` (286 R-genes + 40 non-R genes), with labels in `data/independent_test/final_independent_labels.csv`. This set was used for the RGPT vs PRGminer comparison.
 
-## For any issues or queries drop a mail at tanmayabioinfo@gmail.com or pradhandivyaranjan130602@gmail.com with "R-GPT query" in the subject of the mail.
+For any issues or queries drop a mail at tanmayabioinfo@gmail.com or pradhandivyaranjan130602@gmail.com with "R-GPT query" in the subject of the mail.
 
 ##THANK YOU
