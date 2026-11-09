@@ -1,4 +1,4 @@
-# RGPT: Plant Resistance Gene Prediction Tool
+# R-GPT: Plant Resistance Gene Prediction Tool
 
 RGPT is a four-stage machine learning pipeline for predicting plant resistance (R) genes from protein sequences and classifying their pathogen type.
 
