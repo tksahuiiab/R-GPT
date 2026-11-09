@@ -1,6 +1,6 @@
-# R-GPT: Plant Resistance Gene Prediction Tool
+# R-GPT: R-Gene Prediction Tool
 
-RGPT is a four-stage machine learning pipeline for predicting plant resistance (R) genes from protein sequences and classifying their pathogen type.
+R-GPT is a four-stage machine learning pipeline for predicting plant resistance (R) genes from protein sequences and predicting their pathogen type.
 
 ## Pipeline overview
 
@@ -18,6 +18,7 @@ RGPT is a four-stage machine learning pipeline for predicting plant resistance (
 - `Kinase-Kinase`
 - `Lysin`
 - `TrD-CC`
+- `Unclassified`
 - `Non-R`
 
 ## Installation
