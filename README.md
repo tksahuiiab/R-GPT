@@ -95,4 +95,4 @@ RGPT/
 
 For any issues or queries drop a mail at tanmayabioinfo@gmail.com or pradhandivyaranjan130602@gmail.com with "R-GPT query" in the subject of the mail.
 
-##THANK YOU
+## THANK YOU
