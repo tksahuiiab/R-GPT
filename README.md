@@ -66,9 +66,8 @@ RGPT/
 │   └── protein.fasta           # Example input
 ├── data/
 │   ├── training/               # Training data
-│   │   ├── training_pool.fasta
-│   │   ├── negatives.fasta
-│   │   └── Final_listing_new_2952.xlsx
+│   │   ├── training_pool.fasta # 2,825 R-gene sequences (anonymized IDs)
+│   │   └── negatives.fasta     # 2,825 non-R sequences (anonymized IDs)
 │   └── independent_test/       # Independent benchmark data
 │       ├── final_independent_set.fasta
 │       └── final_independent_labels.csv
@@ -90,7 +89,7 @@ RGPT/
 
 ## Datasets
 
-- **Training set:** `data/training/training_pool.fasta` (2,951 R-genes) + `data/training/negatives.fasta` (40 non-R genes). Class labels are in `data/training/Final_listing_new_2952.xlsx`.
+- **Training set:** `data/training/training_pool.fasta` (2,825 R-genes) + `data/training/negatives.fasta` (2,825 non-R genes). Sequence IDs are anonymized as `Seq1`, `Seq2`, etc.
 - **Independent test set:** `data/independent_test/final_independent_set.fasta` (286 R-genes + 40 non-R genes), with labels in `data/independent_test/final_independent_labels.csv`. This set was used for the RGPT vs PRGminer comparison.
 
 ## Citation
